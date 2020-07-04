@@ -1,0 +1,29 @@
+This is an application (linked with the Library-App-For-Admin - another project of mine) in the library system (a system with 2 apps, 1 for admins and 1 for users).
+Language: Java
+Database: Firebase by Google
+
+This app is for users, the funtions are:
++)Borrow Book
++)Return Book
++)Search Book
++)Keep track borrowing book and personal information
++)Register a new account
++)Forgot password
++)Change password
+
++) To use this app, you just need to:
+1) Dowload the code source
+2) Run the code on Android Studio using a real android phone (I am sorry that we can not use it on the emulator due to the use of firebase authentication)
+3) Go to Settings on your device and allow the app to use camera
+3) Sign in with the following info
+        Account: capsulecrmdoan1@gmail.com
+        Password: 123456
+3) Enjoy the app
+
++) To take a look at the database:
+1) Access firebase.google.com
+2) Sign in with the following info
+        Account: capsulecrmdoan1@gmail.com
+        Password: libraryuitadmin
+3) Click "Go to console"
+4) Click "Database"
