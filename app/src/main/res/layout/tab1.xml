@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/qr_scanner_view_Borrow"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" >
+
+    </com.journeyapps.barcodescanner.DecoratedBarcodeView>
+
+
+
+    <TextView
+        android:id="@+id/txtTab1_Borrow"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#E4B9B9"
+        android:text="BORROWING LIST:"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/lvTab1_BorrowList"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTab1_Confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CONFIRM" />
+
+        <Button
+            android:id="@+id/btnTab1_Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DELETE ALL" />
+    </LinearLayout>
+
+</LinearLayout>

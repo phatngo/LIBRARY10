@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/qr_scanner_view_Return"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" >
+
+    </com.journeyapps.barcodescanner.DecoratedBarcodeView>
+
+    <TextView
+        android:id="@+id/txtTab2_Return"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#E4B9B9"
+        android:text="RETURNING LIST:"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/lvTab2_ReturnList"
+        android:layout_width="match_parent"
+        android:layout_height="247dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTab2_Confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CONFIRM" />
+
+        <Button
+            android:id="@+id/btnTab2_Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DELETE ALL" />
+    </LinearLayout>
+
+</LinearLayout>

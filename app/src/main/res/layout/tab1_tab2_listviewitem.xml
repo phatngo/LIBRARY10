@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+
+            android:layout_width="300dp"
+            android:layout_height="110dp"
+            android:orientation="vertical"
+            android:weightSum="8">
+
+            <TextView
+                android:id="@+id/tab1_tab2_txtISBN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tab1_tab2_txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/tab1_tab2_txtAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/tab1_tab2_txtGenre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/tab1_tab2_btnDelete"
+            android:layout_width="133dp"
+            android:layout_height="119dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/btn_dialog" />
+    </LinearLayout>
+</LinearLayout>
